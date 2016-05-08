@@ -19,8 +19,11 @@
 
 ##开发方式说明
 
-###java 在html页面编写javascript代码，使用js异步调用由微服务提供http restful接口；
+###java 
+在html页面编写javascript代码，使用js异步调用由微服务提供http restful接口；
 
-###php 在html页面编写javascript代码，使用js异步调用php的路由控制器，控制器根据url参数，转发http请求调用微服务http restful接口；
+###php 
+在html页面编写javascript代码，使用js异步调用php的路由控制器，控制器根据url参数，转发http请求调用微服务http restful接口；
 
-###java和php页面代码集成时统一把url地址修改为php后台控制器url，即可提供菜单权限服务；
+###代码集成
+java和php页面代码集成时统一把url地址修改为php后台控制器url，即可提供菜单权限服务；
